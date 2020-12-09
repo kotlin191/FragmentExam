@@ -38,6 +38,9 @@ class ContactFragment : Fragment() {
     }
 
     companion object {
+        val instance : ContactFragment by lazy {
+            ContactFragment()
+        }
         /**
          * Use this factory method to create a new instance of
          * this fragment using the provided parameters.
